@@ -4,8 +4,17 @@ class Program
 {
     static void Main(string[] args)
     {
+        //Partie 1
         Personnage perso1 = new Personnage("perso1", 100);
         perso1.RecevoirDegats(10);
         perso1.Afficher();
+
+        //Partie 2
+        Guerrier guerrier1 = new Guerrier("guerrier1", 150, 10);
+        Magicien magicien1 = new Magicien("magicien1", 80, 10);
+        guerrier1.Afficher();
+        magicien1.Afficher();
+
+        
     }
 }
