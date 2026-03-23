@@ -10,4 +10,8 @@ class Guerrier : Personnage
         Console.WriteLine($"nom du perso: {nom} | Point de vie: {pointsDeVie} | armure: {armure}");
         Console.WriteLine();
     }
+    public void Attaquer()
+    {
+        Console.WriteLine("Le guerrier attaque");
+    }
 }

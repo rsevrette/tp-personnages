@@ -21,5 +21,8 @@ class Program
         guerrier1.RecevoirDegats(50, 20);
         guerrier1.Afficher();
 
+        //Partie 6
+        guerrier1.Attaquer();
+        magicien1.LancerSort();
     }
 }
