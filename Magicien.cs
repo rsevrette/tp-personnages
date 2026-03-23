@@ -5,7 +5,7 @@ class Magicien : Personnage
     {
         this.puissanceMagique = puissanceMagique;
     }
-    public new void Afficher()
+    public override void Afficher()
     {
         Console.WriteLine($"nom du perso: {nom} | Point de vie: {pointsDeVie} | puissance magique: {puissanceMagique}");
         Console.WriteLine();

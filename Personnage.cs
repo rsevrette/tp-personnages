@@ -27,7 +27,7 @@ class Personnage
         this.nom = nom;
         this.pointsDeVie = pointsDeVie;
     }
-    public void Afficher()
+    public virtual void Afficher()
     {
         Console.WriteLine($"nom du perso: {nom} | Point de vie: {pointsDeVie}");
         Console.WriteLine();

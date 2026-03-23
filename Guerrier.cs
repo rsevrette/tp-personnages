@@ -5,7 +5,7 @@ class Guerrier : Personnage
     {
         this.armure = armure;
     }
-    public new void Afficher()
+    public override void Afficher()
     {
         Console.WriteLine($"nom du perso: {nom} | Point de vie: {pointsDeVie} | armure: {armure}");
         Console.WriteLine();
