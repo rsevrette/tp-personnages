@@ -15,6 +15,11 @@ class Program
         guerrier1.Afficher();
         magicien1.Afficher();
 
-        
+        //Partie 5
+        guerrier1.RecevoirDegats(50);
+        guerrier1.Afficher();
+        guerrier1.RecevoirDegats(50, 20);
+        guerrier1.Afficher();
+
     }
 }

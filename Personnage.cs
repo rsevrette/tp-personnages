@@ -36,4 +36,9 @@ class Personnage
     {
         pointsDeVie -= degats;
     }
+    public void RecevoirDegats(int degats, int reduction)
+    {
+        int degats_reduc = degats - reduction;
+        pointsDeVie -= degats_reduc;
+    }
 }
