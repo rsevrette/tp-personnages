@@ -24,5 +24,15 @@ class Program
         //Partie 6
         guerrier1.Attaquer();
         magicien1.LancerSort();
+
+        //Partie 7 — Polymorphisme
+        List<Personnage> personnages = new List<Personnage>();
+        personnages.Add(new Guerrier("Arthur", 100, 20));
+        personnages.Add(new Magicien("Merlin", 80, 50));
+
+        foreach (Personnage p in personnages)
+        {
+            p.Afficher();
+        }
     }
 }

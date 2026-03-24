@@ -4,24 +4,6 @@ class Personnage
 {
     protected string nom;
     protected int pointsDeVie;
-    public string Getnom()
-    {
-        return nom;
-    }
-    public void Setnom(string Nom)
-    {
-        nom = Nom;
-    }
-    public int GetPointDeVie()
-    {
-        return pointsDeVie;
-    }
-    public void SetPointDeVie(int PointsDeVie)
-    {
-        pointsDeVie = PointsDeVie;
-    }
-
-    
     public Personnage(string nom, int pointsDeVie)
     {
         this.nom = nom;
