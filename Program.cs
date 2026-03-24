@@ -71,3 +71,12 @@ class Program
         archer1.Afficher();
     }
 }
+
+
+/*
+1. La surcharge = même nom, paramètres différents. La redéfinition = remplacer une méthode héritée avec override.
+2. Pour que C# appelle la bonne version de la méthode selon le type réel de l'objet.
+3. Manipuler des objets différents de la même façon sans se répéter.
+4. Parce qu'on essaie de convertir un objet en un type qu'il n'est pas.
+5. Pour éviter que le programme crash.
+*/
