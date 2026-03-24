@@ -64,5 +64,10 @@ class Program
         Console.WriteLine(perso2);
         Console.WriteLine(guerrier2);
         Console.WriteLine(magicien3);
+
+        // Partie 12
+        Archer archer1 = new Archer("Archer1", 95, 20);
+        archer1.Tirer();
+        archer1.Afficher();
     }
 }
