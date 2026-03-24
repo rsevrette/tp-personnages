@@ -23,4 +23,8 @@ class Personnage
         int degats_reduc = degats - reduction;
         pointsDeVie -= degats_reduc;
     }
+    public override string ToString()
+    {
+        return $"Personnage: {nom} | Points de vie: {pointsDeVie}";
+    }
 }

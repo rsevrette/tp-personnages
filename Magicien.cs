@@ -14,4 +14,8 @@ class Magicien : Personnage
     {
         Console.WriteLine("Le magicien lance un sort");
     }
+    public override string ToString()
+    {
+        return $"Magicien: {nom} | Points de vie: {pointsDeVie} | Puissance magique: {puissanceMagique}";
+    }
 }

@@ -14,4 +14,8 @@ class Guerrier : Personnage
     {
         Console.WriteLine("Le guerrier attaque");
     }
+    public override string ToString()
+    {
+        return $"Guerrier: {nom} | Points de vie: {pointsDeVie} | Armure: {armure}";
+    }
 }

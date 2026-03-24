@@ -55,5 +55,14 @@ class Program
         {
             Console.WriteLine($"{magicien2} n'est pas un Guerrier, cast impossible.");
         }
+
+        // Partie 11 — ToString()
+        Personnage perso2 = new Personnage("Inconnu", 50);
+        Guerrier guerrier2 = new Guerrier("Arthur", 100, 20);
+        Magicien magicien3 = new Magicien("Merlin", 80, 50);
+
+        Console.WriteLine(perso2);
+        Console.WriteLine(guerrier2);
+        Console.WriteLine(magicien3);
     }
 }
