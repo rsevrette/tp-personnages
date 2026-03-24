@@ -32,8 +32,16 @@ class Program
         personnages.Add(new Magicien("Merlin", 80, 50));
         foreach (Personnage p in personnages)
         {
-            p.Afficher();
-            p.Attaquer();
+            if (p is Guerrier guerrier)
+            {
+                p.Afficher();
+                guerrier.Attaquer();
+            }
+            else if (p is Magicien magicien)
+            {
+                p.Afficher();
+                magicien.LancerSort();
+            }
         }
     }
 }
