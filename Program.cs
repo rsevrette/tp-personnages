@@ -42,6 +42,18 @@ class Program
                 p.Afficher();
                 magicien.LancerSort();
             }
+
+        }
+        // Partie 10 — Mauvais casting
+        Personnage magicien2 = new Magicien("Gandalf", 90, 60);
+        if (magicien2 is Guerrier)
+        {
+            Guerrier castOk = (Guerrier)magicien2;
+            castOk.Attaquer();
+        }
+        else
+        {
+            Console.WriteLine($"{magicien2} n'est pas un Guerrier, cast impossible.");
         }
     }
 }
